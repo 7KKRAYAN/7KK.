@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauster Limited - فيديو تشويقي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Scene 1: Logo Reveal -->
+        <div class="scene scene-1 active">
+            <div class="logo-container">
+                <div class="logo-circle"></div>
+                <h1 class="logo-text">HAUSTER</h1>
+                <p class="logo-subtitle">LIMITED</p>
+            </div>
+            <div class="particles"></div>
+        </div>
+
+        <!-- Scene 2: Company Vision -->
+        <div class="scene scene-2">
+            <div class="content-wrapper">
+                <h2 class="scene-title fade-in">رؤيتنا</h2>
+                <p class="scene-text fade-in-delay">نبني المستقبل بالابتكار والتميز</p>
+                <div class="vision-icons">
+                    <div class="icon-box fade-in-delay-2">
+                        <div class="icon">🚀</div>
+                        <p>ابتكار</p>
+                    </div>
+                    <div class="icon-box fade-in-delay-3">
+                        <div class="icon">💡</div>
+                        <p>إبداع</p>
+                    </div>
+                    <div class="icon-box fade-in-delay-4">
+                        <div class="icon">⭐</div>
+                        <p>تميز</p>
+                    </div>
+                </div>
+            </div>
+            <div class="background-animation"></div>
+        </div>
+
+        <!-- Scene 3: Services -->
+        <div class="scene scene-3">
+            <div class="content-wrapper">
+                <h2 class="scene-title fade-in">خدماتنا</h2>
+                <div class="services-grid">
+                    <div class="service-card slide-in-left">
+                        <div class="service-number">01</div>
+                        <h3>حلول تقنية متقدمة</h3>
+                        <p>نقدم أحدث التقنيات لتطوير أعمالك</p>
+                    </div>
+                    <div class="service-card slide-in-right">
+                        <div class="service-number">02</div>
+                        <h3>استشارات احترافية</h3>
+                        <p>فريق من الخبراء لدعم نجاحك</p>
+                    </div>
+                    <div class="service-card slide-in-left">
+                        <div class="service-number">03</div>
+                        <h3>تطوير مستدام</h3>
+                        <p>نبني حلولاً تدوم للمستقبل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 4: Stats -->
+        <div class="scene scene-4">
+            <div class="content-wrapper">
+                <h2 class="scene-title fade-in">إنجازاتنا</h2>
+                <div class="stats-container">
+                    <div class="stat-box zoom-in">
+                        <div class="stat-number" data-target="500">0</div>
+                        <p class="stat-label">مشروع ناجح</p>
+                    </div>
+                    <div class="stat-box zoom-in-delay">
+                        <div class="stat-number" data-target="1000">0</div>
+                        <p class="stat-label">عميل راضٍ</p>
+                    </div>
+                    <div class="stat-box zoom-in-delay-2">
+                        <div class="stat-number" data-target="50">0</div>
+                        <p class="stat-label">دولة حول العالم</p>
+                    </div>
+                </div>
+            </div>
+            <div class="globe-animation"></div>
+        </div>
+
+        <!-- Scene 5: Call to Action -->
+        <div class="scene scene-5">
+            <div class="content-wrapper">
+                <h2 class="scene-title fade-in">انضم إلى النجاح</h2>
+                <p class="scene-text fade-in-delay">معاً نصنع المستقبل</p>
+                <div class="cta-container fade-in-delay-2">
+                    <button class="cta-button pulse">ابدأ الآن</button>
+                    <button class="cta-button-secondary">تواصل معنا</button>
+                </div>
+                <div class="company-info fade-in-delay-3">
+                    <h1 class="final-logo">HAUSTER LIMITED</h1>
+                    <p class="tagline">حيث يلتقي الابتكار بالتميز</p>
+                </div>
+            </div>
+            <div class="sparkles"></div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="controls">
+            <button class="control-btn prev-btn" id="prevBtn">❮</button>
+            <button class="control-btn play-pause-btn" id="playPauseBtn">⏸</button>
+            <button class="control-btn next-btn" id="nextBtn">❯</button>
+        </div>
+
+        <!-- Scene Indicators -->
+        <div class="scene-indicators">
+            <span class="indicator active" data-scene="0"></span>
+            <span class="indicator" data-scene="1"></span>
+            <span class="indicator" data-scene="2"></span>
+            <span class="indicator" data-scene="3"></span>
+            <span class="indicator" data-scene="4"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
