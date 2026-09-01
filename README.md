@@ -1,4 +1,5 @@
-<img width="800" height="150" alt="gggg" src="https://github.com/user-attachments/assets/19bcc574-51ee-4372-88ca-29bcbd474e8e" /><img width="280" height="280" alt="image_nobg_preview_photiu ai" src="https://github.com/user-attachments/assets/f891c335-6105-4671-a16d-d4c116c72b14" />
+<img width="800" height="150" alt="gggg" src="https://github.com/user-attachments/assets/19bcc574-51ee-4372-88ca-29bcbd474e8e" />
+<img width="280" height="280" alt="image_nobg_preview_photiu ai" src="https://github.com/user-attachments/assets/f891c335-6105-4671-a16d-d4c116c72b14" />
 <img width="330" height="374" alt="330px-Emblem_of_Kuwait svg" src="https://github.com/user-attachments/assets/424096a4-2626-4472-9e0c-c0afaeabcda0" />
 <img width="156" height="77" alt="7367p1j" src="https://github.com/user-attachments/assets/a6d4387e-29b1-45c6-a30b-5507e7bb0b64" />
 <img width="1920" height="1080" alt="tfksz2x" src="https://github.com/user-attachments/assets/95dcfe8a-85a8-462d-b31f-5af5ee52be7c" />
